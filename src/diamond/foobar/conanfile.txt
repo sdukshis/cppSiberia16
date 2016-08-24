@@ -1,0 +1,7 @@
+[requires]
+foo/0.0.1@demo/testing
+bar/0.0.2@demo/testing
+gizmo/0.1.1@demo/testing
+
+[generators]
+cmake

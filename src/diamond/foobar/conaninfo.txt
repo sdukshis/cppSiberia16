@@ -1,0 +1,34 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=6.1
+    os=Linux
+
+[requires]
+    bar/0.0.2
+    foo/0.0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=6.1
+    os=Linux
+
+[full_requires]
+    bar/0.0.2@demo/testing:c79b3086863fde55de7b5e3588cbf9520ecb522c
+    foo/0.0.1@demo/testing:c79b3086863fde55de7b5e3588cbf9520ecb522c
+    gizmo/0.1.1@demo/testing:b1443cf83412704570c1bd5d476269dce0f296ba
+    gizmo/0.1.1@demo/testing:b1443cf83412704570c1bd5d476269dce0f296ba
+
+[full_options]
+
+
+[scope]
+    dev=True
