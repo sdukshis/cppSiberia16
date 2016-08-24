@@ -1,3 +1,7 @@
 [submodule "src/conan-librabbitmq"]
 	path = src/conan-librabbitmq
 	url = https://github.com/sdukshis/conan-librabbitmq
+
+[submodule "src/hello"]
+    path = src/hello
+    url = https://github.com/sdukshis/hello.git
