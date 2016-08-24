@@ -42,12 +42,12 @@ But how we could build all of this!
 * Scons
 * ...
 
-Ok. But who will manage your dependencies?
+Ok. But who will manage our dependencies?
 <!-- .element: class="fragment" -->
 
 
 
-## C++ dependency managers
+## C++ package managers
 
 * Linux 
     * apt, yum, portage, pacman, ...
@@ -296,6 +296,7 @@ PROJECT: Generated cmake created conanbuildinfo.cmake
 PROJECT: Generated conaninfo.txt
 
 ```
+
 
 
 ## Using conan on CI
