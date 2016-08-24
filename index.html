@@ -30,7 +30,8 @@
 				<section data-markdown="slides.md"
 				         data-separator="^\n\n\n"  
          				 data-separator-vertical="^\n\n"  
-         				 data-separator-notes="^Note:"  >
+         				 data-separator-notes="^Note:"
+         				 data-background="./img/colaboratory.jpg.jpg"  >
 				</section>
 			</div>
 		</div>
@@ -49,6 +50,7 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
